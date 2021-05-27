@@ -7,20 +7,57 @@
   --complementary-color-text-nav: #ffffff99;
 }
 
-/* global parameters */
-
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+ul, ol {
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
-ul {
-  list-style: none;
+* {
+	margin: 0;
+	padding: 0;
+}
+
+address {
+	font-style: normal;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+::before,
+::after {
+	box-sizing: border-box;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* All nav menu */
+
+.all_nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
 }
 
 /* logo */
+
+.nav_all_link_logo {
+  /* display: flex; */
+  margin-left: 15px;
+}
+
 .studiocolor-top {
+  margin-top: 24px;
+  margin-bottom: 25px;
+  padding-top: 6px;
+  padding-bottom: 6px;
   font-family: Raleway;
   text-decoration: none;
   font-size: 26px;
@@ -63,13 +100,18 @@ ul {
 /* button index */
 
 .font-size-button-index {
+  margin: 0 auto;
+  min-width: 200px;
+  padding: 10px 32px;
   font-family: Roboto;
   font-size: 16px;
+  background-color: var(--highlight-color);
   color: var(--main-background-color);
   line-height: 1.875;
   display: flex;
   align-items: center;
   text-align: center;
+  border-radius: 4px;
   letter-spacing: 0.06em;
 }
 
@@ -88,12 +130,49 @@ ul {
   color: #2196f3;
 }
 
-/* navigation - запасной */
-/*.text-nav {
+.nav_all_link {
+  display: block;
+  display: flex;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-left: 93px;
+}
+
+/* .item {
+} */
+
+.nav_all_link .item {
+  /* outline: 1px solid red; */
+  margin-right: 50px;
+}
+
+.nav_all_link .item:last-child {
+  margin-right: 0;
+}
+
+
+.nav-link {
+  text-decoration: none;
+  color: var(--first-text-primary);
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
-}*/
+  line-height: 1.172;
+  letter-spacing: 0.02em;
+}
+.nav-link:focus,
+.nav-link:hover {
+  color: #2196f3;
+}
+
+.contact_nav {
+  display: flex;
+  margin-left: 331px;
+  margin-right: 15px;
+}
+
+.contact_nav .item + .item {
+ margin-left: 50px;
+}
 
 .nav-link-mail {
   text-decoration: none;
@@ -120,19 +199,6 @@ ul {
 
 .nav-link-tel:focus,
 .nav-link-tel:hover {
-  color: #2196f3;
-}
-
-.nav-link {
-  text-decoration: none;
-  color: var(--first-text-primary);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.172;
-  letter-spacing: 0.02em;
-}
-.nav-link:focus,
-.nav-link:hover {
   color: #2196f3;
 }
 
@@ -199,7 +265,6 @@ ul {
 }
 
 .address-index {
-  font-style: normal;
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
