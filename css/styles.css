@@ -148,9 +148,6 @@ h1 span {
   margin-left: 93px;
 }
 
-/* .item {
-} */
-
 .nav_all_link .item {
   /* outline: 1px solid red; */
   margin-right: 50px;
@@ -223,10 +220,57 @@ h1 span {
   display: block;
 }
 
+.section_h2 {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.all_main_h2  {
+  margin-left: 15px;
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.all_main_h2 .item_team:not(:last-child) {
+  margin-right: 30px;
+}
+
 .text-title-h2-index {
+  padding-bottom: 50px;
   font-size: 36px;
   line-height: 1.171;
   text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Наша команда */
+
+.all_main_h2_team {
+  margin-left: 15px;
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+
+.item_team {
+  text-align: center;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.all_main_h2_team .item_team:not(:last-child) {
+  margin-right: 30px;
+}
+
+.text-team-index {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.171;
   letter-spacing: 0.03em;
 }
 
@@ -264,14 +308,10 @@ h1 span {
   color: var(--complementary-color-text);
 }
 
-.text-team-index {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.171;
-  letter-spacing: 0.03em;
-}
+
 
 .text-command-professions-index {
+  margin-bottom: 30px;
   font-size: 16px;
   line-height: 1.171;
   color: var(--complementary-color-text);
