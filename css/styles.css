@@ -53,7 +53,6 @@ a {
 /* logo */
 
 .nav_all_link_logo {
-  /* display: flex; */
   margin-left: 15px;
 }
 
@@ -75,7 +74,10 @@ a {
   color: var(--highlight-color);
 }
 
-.studiocolor-bottom {
+.studiocolor_bottom {
+  display: inline-block;
+  margin-top: 60px;
+  margin-bottom: 20px;
   font-family: Raleway;
   text-decoration: none;
   font-size: 26px;
@@ -226,14 +228,12 @@ h1 span {
 }
 
 .all_main_h2  {
-  margin-left: 15px;
-  margin-right: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.all_main_h2 .item_team:not(:last-child) {
+.all_main_h2 .item:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -264,6 +264,7 @@ h1 span {
 .all_main_h2_team .item_team:not(:last-child) {
   margin-right: 30px;
 }
+
 
 .text-team-index {
   margin-top: 30px;
@@ -331,16 +332,33 @@ h1 span {
   letter-spacing: 0.03em;
 }
 
-.footer {
-  background: var(--complementary-color);
+.footer_all {
+  background-color: var(--complementary-color);
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
-.address-index {
+.footer_all_box {
+  display: inline-block;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+
+.address_index {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
   color: var(--main-background-color);
 }
+
+.footer_all_box_contacts {
+  margin-bottom: 60px;
+}
+
+.footer_all_box_contacts li:not(:last-child) {
+  padding-bottom: 9px;
+} 
 
 .nav-text-footer {
   text-decoration: none;
@@ -350,11 +368,8 @@ h1 span {
   letter-spacing: 0.03em;p
 }
 
+
 .nav-text-footer:focus,
 .nav-text-footer:hover {
   color: var(--highlight-color);
 }
-
-
-
-/* Test */
