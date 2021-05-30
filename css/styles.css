@@ -42,7 +42,6 @@ a {
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-  background-color: LightGray;
 }
 
 /* All nav menu */
@@ -109,6 +108,7 @@ a {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  background-color: darkgray;
 }
 
 h1 span {
@@ -364,12 +364,11 @@ studiocolor_bottom .font-size-button-portfolio:focus,
   margin-bottom: 0px;
 }
 
-li > .portfolio_element {
+.item_text {
+  border-right: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   background: var(--main-background-color);
-}
-
-.item_text {
   padding: 20px 24px;
 }
 
