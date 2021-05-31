@@ -37,17 +37,20 @@ a {
 .container {
   width: 1200px;
   margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .section {
-  padding-top: 94px;
+  /* padding-top: 94px; */
   padding-bottom: 94px;
 }
 
 /* All nav menu */
-
 .header_border {
   border-bottom: 1px solid #ececec;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 
 /* border-bottom: 1px solid transparent; */
@@ -55,8 +58,6 @@ a {
 .all_nav {
   display: var(--display-property-flex);
   align-items: center;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 /* logo */
@@ -81,7 +82,7 @@ a {
 .studiocolor_bottom {
   display: inline-block;
   margin-bottom: 20px;
-  padding-top: 60px;
+  /* padding-top: 60px; */
   font-family: Raleway;
   text-decoration: none;
   font-size: 26px;
@@ -96,10 +97,13 @@ a {
   color: var(--first-text-primary);
 }
 
+.hero_title {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
 /* font title */
 .font_size_title {
-  padding-left: 15px;
-  padding-right: 15px;
   margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
@@ -139,15 +143,6 @@ h1 span {
 
 /* button portfolio */
 
-.button_portfolio {
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-bottom: 50px;
-  justify-content: center;
-  align-items: center;
-  display: var(--display-property-flex);
-}
-
 .font-size-button-portfolio {
   margin: 0 auto;
   padding: 6px 22px;
@@ -169,6 +164,7 @@ studiocolor_bottom .font-size-button-portfolio:focus,
 }
 
 .all_portfolio_button {
+  margin-bottom: 50px;
   display: var(--display-property-flex);
   justify-content: center;
   align-items: center;
@@ -181,8 +177,6 @@ studiocolor_bottom .font-size-button-portfolio:focus,
 .nav_all_link {
   display: block;
   display: var(--display-property-flex);
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .nav_all_link .item {
@@ -244,11 +238,6 @@ studiocolor_bottom .font-size-button-portfolio:focus,
   cursor: pointer;
 }
 
-.section_h2 {
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
 .all_main_h2 {
   display: var(--display-property-flex);
   align-items: center;
@@ -270,8 +259,6 @@ studiocolor_bottom .font-size-button-portfolio:focus,
 /* Наша команда */
 
 .all_main_h2_team {
-  padding-left: 15px;
-  padding-right: 15px;
   display: var(--display-property-flex);
   align-items: center;
   justify-content: center;
@@ -288,7 +275,7 @@ studiocolor_bottom .font-size-button-portfolio:focus,
   margin-right: 30px;
 }
 
-.text-team-index {
+.item_team_ .text-team-index {
   margin-top: 30px;
   margin-bottom: 10px;
   font-weight: 500;
@@ -297,10 +284,13 @@ studiocolor_bottom .font-size-button-portfolio:focus,
   letter-spacing: 0.03em;
 }
 
+.item_team_overall {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .all_main_h3 {
   display: var(--display-property-flex);
-  padding-left: 15px;
-  padding-right: 15px;
   justify-content: center;
 }
 
@@ -330,7 +320,6 @@ studiocolor_bottom .font-size-button-portfolio:focus,
 }
 
 .text-command-professions-index {
-  margin-bottom: 30px;
   font-size: 16px;
   line-height: 1.171;
   color: var(--complementary-color-text);
@@ -342,8 +331,6 @@ studiocolor_bottom .font-size-button-portfolio:focus,
 /* icon portfolio menu */
 
 .portfolio_icon {
-  padding-left: 15px;
-  padding-right: 15px;
   justify-content: center;
   align-items: center;
   display: var(--display-property-flex);
@@ -385,10 +372,10 @@ studiocolor_bottom .font-size-button-portfolio:focus,
   letter-spacing: 0.03em;
 }
 
-.footer_all {
+.footer_background {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: var(--complementary-color);
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .footer_all_box {
@@ -404,12 +391,8 @@ studiocolor_bottom .font-size-button-portfolio:focus,
   color: var(--main-background-color);
 }
 
-.footer_all_box_contacts {
-  padding-bottom: 60px;
-}
-
 .footer_all_box_contacts li:not(:last-child) {
-  padding-bottom: 9px;
+  margin-bottom: 9px;
 }
 
 .nav-text-footer {
