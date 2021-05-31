@@ -53,8 +53,6 @@ a {
   padding-bottom: 25px;
 }
 
-/* border-bottom: 1px solid transparent; */
-
 .all_nav {
   display: var(--display-property-flex);
   align-items: center;
@@ -64,8 +62,7 @@ a {
 
 .studiocolor_top {
   margin-right: 93px;
-  padding-top: 24px;
-  padding-bottom: 25px;
+
   font-family: Raleway;
   text-decoration: none;
   font-size: 26px;
@@ -82,7 +79,6 @@ a {
 .studiocolor_bottom {
   display: inline-block;
   margin-bottom: 20px;
-  /* padding-top: 60px; */
   font-family: Raleway;
   text-decoration: none;
   font-size: 26px;
@@ -161,6 +157,10 @@ studiocolor_bottom .font-size-button-portfolio:focus,
 .font-size-button-portfolio:hover {
   background-color: var(--highlight-color);
   color: var(--main-background-color);
+}
+
+.main_general {
+  padding-top: 94px;
 }
 
 .all_portfolio_button {
